@@ -1,1 +1,2 @@
-Replace the fakeAuthProvider with a secure authentication mechanism, e.g., using a library like Auth0
+import { REACT_APP_AUTH_TOKEN } from 'react-dotenv';
+const token = REACT_APP_AUTH_TOKEN;
